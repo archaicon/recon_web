@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2ecc71;
+}
+
+.left_triangle {
+    height: 0;
+    width: 0;
+    border-top: 50em solid #212121;
+    border-right: 50em solid transparent;
+}
