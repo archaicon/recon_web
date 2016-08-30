@@ -5,3 +5,9 @@ body {
     background-color: #2ecc71;
 }
 
+#triangle {
+    margin-left: -6px;
+    float: left;
+    padding: 0;
+    height: 700px;
+}
