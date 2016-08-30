@@ -10,4 +10,31 @@ body {
     float: left;
     padding: 0;
     height: 700px;
+    position: relative;
+}
+
+#recon_name {
+    color: white;
+    font-size: 5em;
+    font-family: 'Questrial', sans-serif;
+    position: absolute;
+    margin-left: 2.3em;
+    margin-top: 1.75em;
+}
+
+#recon_logo {
+    position: absolute;
+    height: 80px;
+    margin-left: -50.5em;
+    margin-top: 7em;
+}
+
+#recon_desc {
+    position: absolute;
+    color: white;
+    font-size: 1.6em;
+    font-family: Raleway;
+    margin-left: -31.5em;
+    margin-top: 10.8em;
+    width: 14em;
 }
