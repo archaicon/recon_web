@@ -2,19 +2,37 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #2ecc71;
+    background-color: #212121;
 }
 
 .headerbar {
-    background-color: #212121;
+    background-color: #2ecc71;
     width: 100%;
-    height: 5em;
+    height: 3.8em;
     padding: 0px;
-    border-bottom: 1px  solid #3b3b3b;
+    border-bottom: 1px  solid #2ecc71;
     color: #212121;
     position: fixed;
+    z-index: 9999;
+}
+
+#recon_logo_next {
+    position: absolute;
+    height: 40px;
 }
 
 .recon_name {
+    color: #212121;
+    font-size: 40px;
+    font-family: "Questrial", sans-serif;
+    margin-top: 0.55em;
+    margin-left: 1em;
+}
 
+.what {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 20em;
 }
