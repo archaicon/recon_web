@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #212121;
+    background-color: #494949;
 }
 
 .headerbar {
@@ -35,4 +35,5 @@ body {
     position: relative;
     overflow: hidden;
     padding: 20em;
+    background-color: #212121;
 }
