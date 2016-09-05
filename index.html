@@ -13,16 +13,14 @@
     <title>Recon</title>
 </head>
 <body>
-    <div class="animsition" data-animsition-in-duration="2000" data-animsition-out-class="91239213">
+    <div class="animsition" data-animsition-in-duration="2000" data-animsition-out-duration="1000">
         <img id="triangle" src="resources/images/intro_page.png" >
+    </div>
+
+    <div id="anim1" class="animsition" data-animsition-in-duration="5000" data-animsition-out-duration="1000">
         <img id="recon_logo" src="resources/images/recon.png" >
         <div id="recon_name">Recon</div>
-        <span id="recon_desc">
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>
-            An innovative approach that &nbsp &nbsp allows
-            customers and &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp businesses to communicate
-            &nbsp &nbsp effectively on an day to day &nbsp &nbsp basis
-        </span>
+
         <span id="learn_more">
             Learn More
         </span>
@@ -32,9 +30,25 @@
         </a>
     </div>
 
+    <div id="anim2" class="animsition" data-animsition-in-duration="5000" data-animsition-out-duration="1000">
+        <span id="recon_desc">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            An innovative approach that &nbsp &nbsp allows
+            customers and &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp businesses to communicate
+            &nbsp &nbsp effectively on an day to day &nbsp &nbsp basis
+        </span>
+    </div>
+
     <script>
         $(document).ready(function() {
             $('.animsition').animsition();
+            setTimeout(func, 5000);
+            function func() {
+                $('#anim1').css('-webkit-animation-delay', '0.0s');
+                $('#anim1').css('animation-delay', '0.0s');
+                $('#anim2').css('-webkit-animation-delay', '0.0s');
+                $('#anim2').css('animation-delay', '0.0s');
+            }
         });
     </script>
 </body>
