@@ -2,26 +2,12 @@
  * Created by SudharsanPrabu on 9/3/16.
  */
 $(document).ready(function() {
-    $(".animsition").animsition({
-        inClass: 'fade-in-down-lg',
-        outClass: 'fade-out-down-lg',
-        inDuration: 1500,
-        outDuration: 800,
-        linkElement: '.animsition-link',
-        // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
-        loading: true,
-        loadingParentElement: 'body', //animsition wrapper element
-        loadingClass: 'animsition-loading',
-        loadingInner: '', // e.g '<img src="loading.svg" />'
-        timeout: false,
-        timeoutCountdown: 5000,
-        onLoadEvent: true,
-        browser: [ 'animation-duration', '-webkit-animation-duration'],
-        // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
-        // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
-        overlay : false,
-        overlayClass : 'animsition-overlay-slide',
-        overlayParentElement : 'body',
-        transition: function(url){ window.location.href = url; }
-    });
+    $('.animsition').animsition();
+    setTimeout(func, 5000);
+    function func() {
+        $('#anim1').css('-webkit-animation-delay', '0.0s');
+        $('#anim1').css('animation-delay', '0.0s');
+        $('#anim2').css('-webkit-animation-delay', '0.0s');
+        $('#anim2').css('animation-delay', '0.0s');
+    }
 });

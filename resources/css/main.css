@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #494949;
+    background-color: #3c3c3c;
 }
 
 .headerbar {
@@ -36,4 +36,21 @@ body {
     overflow: hidden;
     padding: 20em;
     background-color: #212121;
+}
+
+#exp {
+    color: white;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    width: 50em;
+    margin-left: -9em;
+}
+
+#whatrec {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4em;
+    margin-top: -2em;
+    margin-left: 1.5em;
 }
