@@ -157,8 +157,8 @@ body {
 }
 
 #anim1 {
-    -webkit-animation-delay: 0.7s; /* Chrome, Safari, Opera */
-    animation-delay: 0.7s;
+    -webkit-animation-delay: 0.5s; /* Chrome, Safari, Opera */
+    animation-delay: 0.5s;
 }
 
 #anim2 {
