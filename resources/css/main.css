@@ -76,3 +76,29 @@ body {
     padding-right: 15px;
     padding-left: 15px;
 }
+
+#link td a {
+    text-decoration: none;
+    color: #2ecc71;
+}
+
+#link td a:hover {
+    text-decoration: none;
+    color: #ff9226;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+}
+
+#link td a:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    border-bottom: 3px solid #ff8913;
+    transition: 0.4s;
+}
+
+#link td a:hover:after {
+    width: 10%;
+}
