@@ -11,3 +11,11 @@ $(document).ready(function() {
         $('#anim2').css('animation-delay', '0.0s');
     }
 });
+
+$(document).on('click', 'a', function(event){
+    event.preventDefault();
+
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 600);
+});
