@@ -118,23 +118,23 @@ li a {
     padding-bottom: 5px;
 }
 
-#Home {
+.Home {
     margin-right: 25em;
 }
 
-#About {
+.About {
     margin-right: 21em;
 }
 
-#Features {
+.Features {
     margin-right: 15.6em;
 }
 
-#Contact {
+.Contact {
     margin-right: 10.5em;
 }
 
-#about {
+#about-text {
     width: 100%;
     height: 100%;
     position: relative;

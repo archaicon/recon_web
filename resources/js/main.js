@@ -10,12 +10,18 @@ $(document).ready(function() {
         $('#anim2').css('-webkit-animation-delay', '0.0s');
         $('#anim2').css('animation-delay', '0.0s');
     }
-});
 
-$(document).on('click', 'a', function(event){
-    event.preventDefault();
+    var anchors = document.getElementsByTagName('a');
 
-    $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 600);
+    for(var i = 1; i < anchors.length; i++) {
+        var anchor = anchors[i];
+
+        anchor.onclick = function() {
+            event.preventDefault();
+
+            $('html, body').animate({
+                scrollTop: $( $.attr(this, 'href') ).offset().top
+            }, 500);
+        }
+    }
 });
