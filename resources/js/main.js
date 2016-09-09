@@ -13,7 +13,7 @@ $(document).ready(function() {
 
     var anchors = document.getElementsByTagName('a');
 
-    for(var i = 1; i < anchors.length; i++) {
+    for(var i = 2; i < anchors.length; i++) {
         var anchor = anchors[i];
 
         anchor.onclick = function() {

@@ -142,3 +142,7 @@ li a {
     padding: 30em;
     background-color: #13cc75;
 }
+
+.link-click{
+    text-decoration: none;
+}
