@@ -158,13 +158,17 @@ li a {
 }
 
 #gaming {
-    margin-top: 2em;
+    display: inline-flex;
+    margin-top: 3em;
+    margin-left: 17em;
 }
 
 #business {
-
+    display: inline-flex;
+    margin-left: 10em;
 }
 
 #discounts {
-
+    display: inline-flex;
+    margin-left: 10em;
 }
