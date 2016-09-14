@@ -160,15 +160,42 @@ li a {
 #gaming {
     display: inline-flex;
     margin-top: 3em;
-    margin-left: 17em;
+    margin-left: 14em;
 }
 
 #business {
     display: inline-flex;
-    margin-left: 10em;
+    margin-left: 16.5em;
 }
 
 #discounts {
     display: inline-flex;
-    margin-left: 10em;
+    margin-left: 12em;
+}
+
+#text-gaming {
+    padding: 0 0 0 0;
+    font-size: 2em;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 3em;
+    margin-left: -2.85em;
+}
+
+#text-business {
+    padding: 0 0 0 0;
+    font-size: 2em;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 3em;
+    margin-left: -5.15em;
+}
+
+#text-discounts {
+    padding: 0 0 0 0;
+    font-size: 2em;
+    font-weight: 100;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 3em;
+    margin-left: -3.15em;
 }
