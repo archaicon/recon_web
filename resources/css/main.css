@@ -234,3 +234,23 @@ li a {
   margin-left: -6.2em;
   margin-top: -1em;
 }
+
+#Contact {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 20em;
+  background-color: #212121;
+}
+
+#contact-title {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3em;
+  margin-left: 10.5em;
+}
+
+#thiemo {
+  width: 350px;
+}
