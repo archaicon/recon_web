@@ -55,6 +55,13 @@ body {
     margin-top: 36.5em;
 }
 
+#recon_splash {
+  position: absolute;
+  width: 400px;
+  margin-left: -3em;
+  margin-top: 5em;
+}
+
 /*!
  * Hover.css (http://ianlunn.github.io/Hover/)
  * Version: 2.0.1
@@ -164,4 +171,9 @@ body {
 #anim2 {
     -webkit-animation-delay: 1.5s; /* Chrome, Safari, Opera */
     animation-delay: 1.5s;
+}
+
+#anim3 {
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    animation-delay: 2s;
 }
