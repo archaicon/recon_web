@@ -240,7 +240,7 @@ li a {
   height: 100%;
   position: relative;
   overflow: hidden;
-  padding-bottom: 20em;
+  padding-bottom: 5em;
   background-color: #212121;
 }
 
@@ -248,9 +248,71 @@ li a {
   color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 3em;
-  margin-left: 10.5em;
+  margin-left: 10.8em;
 }
 
 #thiemo {
   width: 350px;
+  height: 350px;
+  margin-left: 10em;
+}
+
+#thiemo-name {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  margin-left: 7.4em;
+}
+
+#thiemo-des {
+  color: white;
+  font-family: 'Questrial', sans-serif;
+  font-size: 1em;
+  width: 375px;
+  text-align: center;
+  margin-left: 9em;
+}
+
+#thiemo-em {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  margin-left: 9em;
+}
+
+#sud {
+  width: 350px;
+  height: 350px;
+  float: right;
+  margin-top: -39.1em;
+  margin-right: 10em;
+}
+
+#sud-name {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em;
+  float: right;
+  margin-top: -7.6em;
+  margin-right: 6.5em;
+}
+
+#sud-des {
+  color: white;
+  font-family: 'Questrial', sans-serif;
+  font-size: 1em;
+  width: 375px;
+  text-align: center;
+  float:right;
+  margin-top: -11.5em;
+  margin-right: 9em;
+}
+
+#sud-em {
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  float: right;
+  margin-top: -2em;
+  margin-right: 10.3em;
 }
